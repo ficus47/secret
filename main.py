@@ -1,6 +1,6 @@
 import streamlit as st
 
-with open("image.png", "rb") as file:
+with open("image.PNG", "rb") as file:
     btn = st.download_button(
         label="18",
         data=file,
