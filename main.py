@@ -1,9 +1,9 @@
 import streamlit as st
-import os
+#import os
 
-st.write(os.listdir())
+#st.write(os.listdir())
 
-with open("image.png", "rb") as file:
+with open("Capture.PNG", "rb") as file:
     btn = st.download_button(
         label="18",
         data=file,
