@@ -5,7 +5,7 @@ import streamlit as st
 
 with open("Capture.PNG", "rb") as file:
     btn = st.download_button(
-        label="18",
+        label="google first PL",
         data=file,
         file_name="image.png",
         mime="image/png"
